@@ -6,3 +6,26 @@ lockPref("browser.startup.homepage", "http://example.org/index.html");
 // forbid to alter the above specified startup page
 lockPref("browser.startup.page", 1);
 
+// enforce a private session to protect the data of the user against access through other users
+// private session is enabled by default
+lockPref("browser.privatebrowsing.autostart", true);
+// enable privacy session for following features
+lockPref("privacy.item.cache", true);
+lockPref("privacy.item.cookies", true);
+lockPref("privacy.item.downloads", true);
+lockPref("privacy.item.formdata", true);
+lockPref("privacy.item.history", true);
+lockPref("privacy.item.offlineApps", true);
+lockPref("privacy.item.passwords", true);
+lockPref("privacy.item.sessions", true);
+// clear data when closing the browser
+lockPref("privacy.clearOnShutdown.cache", true);
+lockPref("privacy.clearOnShutdown.cookies", true);
+lockPref("privacy.clearOnShutdown.downloads", true);
+lockPref("privacy.clearOnShutdown.formdata", true);
+lockPref("privacy.clearOnShutdown.history", true);
+lockPref("privacy.clearOnShutdown.passwords", true);
+lockPref("privacy.clearOnShutdown.sessions", true);
+lockPref("privacy.clearOnShutdown.siteSettings", true);
+lockPref("privacy.clearOnShutdown.offlineApps", true);
+
