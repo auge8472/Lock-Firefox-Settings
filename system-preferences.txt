@@ -41,3 +41,19 @@ lockPref("privacy.cpd.sessions", true);
 lockPref("privacy.cpd.sessions", true);
 lockPref("privacy.cpd.siteSettings", true);
 
+// tab bar behaviour
+// enforce to display the tab bar in case of only one open tab
+lockPref("browser.tabs.autoHide", false);
+// do not close the browser window if the last tab is closed
+lockPref("browser.tabs.closeWindowWithLastTab", false);
+// open new tabs in background
+lockPref("browser.tabs.loadInBackground", true);
+// open a new tab with a click of the middle mouse button
+lockPref("browser.tabs.opentabfor.middleclick", true);
+// disable the warning about closing several tabs if the browser should be closed
+lockPref("browser.tabs.warnOnClose", false);
+// enable the warning about slowing down the browser when opening additional tabs
+lockPref("browser.tabs.warnOnOpen", true);
+// set the number of tabs before warning about slow down
+lockPref("browser.tabs.maxOpenBeforeWarn", 12);
+
