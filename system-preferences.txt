@@ -66,6 +66,8 @@ lockPref("dom.disable_open_during_load", true);
 lockPref("dom.disable_window_move_resize", true);
 // JavaScript is not alowed to close a window
 lockPref("dom.allow_scripts_to_close_windows", false);
+// prevent hiding of the context menu via JavaScript
+lockPref("dom.event.contextmenu.enabled", false);
 
 // deactivate dom storage
 // disable dom storage cookies
