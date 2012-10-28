@@ -16,3 +16,7 @@ Use
 
 Close, if there are open ones, all firefox instances. Open the above specified file with root/administrator access. Put the code for the preferences wich should be locked into the file. After saving the file open firefox. Locked preferences wich are normally accessible in the preferences window are now shown greyed in this window. In the about:config view these preferences are shown in italic style are marked als locked.
 
+License
+=======
+
+This project is licensed unter the terms of the GNU General Public License Version 2, June 1991
