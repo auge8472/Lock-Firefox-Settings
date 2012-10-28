@@ -1,0 +1,18 @@
+Lock-Firefox-Settings
+=====================
+
+Lock settings of firefox browser (version 5 and higher) on public terminals.
+
+Users on a public terminal should be unable to change settings of the firefox browser. This is a try to lock the relevant settings on the application level, not to hide the settings dialogue. Path to the file and it's name is operating system dependant.
+
+Path
+====
+
+Ubuntu 12.04: /etc/firefox/pref/firefox.js
+Lubuntu 12.04: /etc/firefox/syspref.js
+
+Use
+===
+
+Close, if there are open ones, all firefox instances. Open the above specified file with root/administrator access. Put the code for the preferences wich should be locked into the file. After saving the file open firefox. Locked preferences wich are normally accessible in the preferences window are now shown greyed in this window. In the about:config view these preferences are shown in italic style are marked als locked.
+
