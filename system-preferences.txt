@@ -1,0 +1,8 @@
+
+// Set a startup page i.e. to notoce the user for closing the browser after use.
+// The page should be stored in a location, with restricted access for the user root/administrator
+// specify the homepage
+lockPref("browser.startup.homepage", "http://example.org/index.html");
+// forbid to alter the above specified startup page
+lockPref("browser.startup.page", 1);
+
