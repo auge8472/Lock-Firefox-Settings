@@ -29,3 +29,15 @@ lockPref("privacy.clearOnShutdown.sessions", true);
 lockPref("privacy.clearOnShutdown.siteSettings", true);
 lockPref("privacy.clearOnShutdown.offlineApps", true);
 
+// show dialogs to clear user data inside a browser session
+lockPref("privacy.cpd.cache", true);
+lockPref("privacy.cpd.cookies", true);
+lockPref("privacy.cpd.downloads", true);
+lockPref("privacy.cpd.formdata", true);
+lockPref("privacy.cpd.history", true);
+lockPref("privacy.cpd.offlineApps", true);
+lockPref("privacy.cpd.passwords", true);
+lockPref("privacy.cpd.sessions", true);
+lockPref("privacy.cpd.sessions", true);
+lockPref("privacy.cpd.siteSettings", true);
+
