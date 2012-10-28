@@ -57,3 +57,12 @@ lockPref("browser.tabs.warnOnOpen", true);
 // set the number of tabs before warning about slow down
 lockPref("browser.tabs.maxOpenBeforeWarn", 12);
 
+// JavaScript behaviour and restrictions
+// enable JavaScript
+lockPref("javascript.enabled", true);
+// block unrequested JavaScript popups while opening an URL
+lockPref("dom.disable_open_during_load", true);
+// JavaScript is not allowed to resize a window or move it to background
+lockPref("dom.disable_window_move_resize", true);
+// JavaScript is not alowed to close a window
+lockPref("dom.allow_scripts_to_close_windows", false);
