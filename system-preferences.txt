@@ -66,3 +66,10 @@ lockPref("dom.disable_open_during_load", true);
 lockPref("dom.disable_window_move_resize", true);
 // JavaScript is not alowed to close a window
 lockPref("dom.allow_scripts_to_close_windows", false);
+
+// deactivate dom storage
+// disable dom storage cookies
+lockPref("dom.storage.enabled", false);
+// explicitely set dom storage size to 0
+lockPref("dom.storage.default_quota", 0);
+
