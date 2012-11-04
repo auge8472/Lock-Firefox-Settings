@@ -75,3 +75,11 @@ lockPref("dom.storage.enabled", false);
 // explicitely set dom storage size to 0
 lockPref("dom.storage.default_quota", 0);
 
+// set browser cache and a fix disk quota
+// enable cache
+lockPref("browser.cache.disk.enable", true);
+// disable automatic adjustment of disk quota
+lockPref("browser.cache.disk.smart_size.enabled", false);
+// size of the browser cache is 16 MByte
+lockPref("browser.cache.disk.capacity", 16384);
+
